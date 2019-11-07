@@ -35,31 +35,22 @@ class Home extends Component {
           <span>
             <h3 className="intro">Introduction</h3>
             <p className="body">
-              Welcome to my portfolio!{" "}
+              Welcome to my portfolio! I'm a California State University,
+              Fullerton graduate with a degree in Business & Marketing, Ex-Media
+              Planner, and recent grad from General Assembly's Software
+              Engineering Immersive Program. I'm passionate about Code, Music,
+              and Design, seeking a full-time position in Software Engineering.
+            </p>
+            <p className="body">
+              I encourage you to take a look around - You'll find examples of my
+              projects, blog posts detailing my story and switch to software
+              engineering, and I've included links to some of my favorite
+              playlists.{" "}
               <span className="hashtag">
-                #SoftwareEngineering #MediaPlanner
+                #SoftwareEngineering #Ex-MediaPlanner
               </span>
             </p>
           </span>
-        </div>
-        <div className="nav">
-          <h3 className="intro">Full-Stack Software Engineer</h3>
-          <p className="body">
-            My interest in Software Engineering stemmed from my interest in
-            Gaming and Music. I was introduced to video games at an early age,
-            starting with the Gameboy Color. I believe video games are an
-            elegant combination of game theory, storyline, design, audio. Beyond
-            the game itself, the communities created as a result have also had a
-            major impact on my life, with some of my fondest memories revolving
-            around all night gaming sessions with friends. Additionally,
-            electronic music has always fascinated me. Digital audio workspaces
-            allow us to view, edit, and completely transform soundwaves,
-            combining them to create entire tracks. Electronic music has taken
-            me around the world, through which I’ve met and grown closer to many
-            of my current friends. All of these experiences have been entirely
-            backed by the code facilitates both of these industries.{" "}
-            <span className="hashtag">#HTML #CSS #JavaScript</span>
-          </p>
         </div>
       </div>
     );

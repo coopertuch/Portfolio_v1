@@ -42,7 +42,7 @@ class Music extends Component {
             allow="encrypted-media"
           ></iframe>
           <iframe
-            src="https://open.spotify.com/embed/playlist/13H2xi6WamlTLdXYvLcv0P"
+            src="https://open.spotify.com/embed/playlist/6DAbFSI4iEcxK1J25tz24J"
             width="300"
             height="380"
             frameborder="0"

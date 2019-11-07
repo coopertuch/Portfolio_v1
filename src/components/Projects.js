@@ -7,12 +7,13 @@ class Projects extends Component {
       <div>
         <h1>Projects</h1>
         <h2>
+          Cooper Tuch //{" "}
           <a
             className="url"
             href="https://github.com/coopertuch"
             target="_blank"
           >
-            Cooper Tuch // GitHub
+            GitHub
           </a>
         </h2>
         <div className="project">
@@ -23,17 +24,17 @@ class Projects extends Component {
                 href="https://coopertuch.github.io/GA-Project-1/"
                 target="_blank"
               >
-                [ BB'z Questions ]
+                [BB'z Questions]{" "}
               </a>
               <a
                 className="url"
                 href="https://github.com/coopertuch/GA-Project-1"
                 target="_blank"
               >
-                [ BB'z Questions Repo ]
+                [BB'z Questions Repo]
               </a>
             </h3>
-            <p>
+            <p className="body">
               BB'z Questions is a collection of questions split into several
               various categories. This project is intended for use by new
               friends, old friends, family, anyone you hope to get closer to or
@@ -63,17 +64,17 @@ class Projects extends Component {
                 href="https://coopscheerups.herokuapp.com/"
                 target="_blank"
               >
-                [ Coop's Cheerups ]
+                [Coop's Cheerups]{" "}
               </a>
               <a
                 className="url"
                 href="https://github.com/coopertuch/GA-Project-2"
                 target="_blank"
               >
-                [ Coop's Cheerups Repo ]
+                [Coop's Cheerups Repo]
               </a>
             </h3>
-            <p>
+            <p className="body">
               When you need a little positivity in your life, look no further
               than Cheerups. Coop's Cheerups allows you to read, post, edit, and
               delete from a board of positive quotes, while tracking positive

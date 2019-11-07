@@ -7,12 +7,13 @@ class Blog extends Component {
       <div>
         <h1>Blog</h1>
         <h2>
+          Cooper Tuch //{" "}
           <a
             className="url"
             href="https://medium.com/@coopertuch"
             target="_blank"
           >
-            Cooper Tuch // Medium
+            Medium
           </a>
         </h2>
         <div className="blog">
@@ -23,7 +24,7 @@ class Blog extends Component {
                 href="https://medium.com/@coopertuch/journey-to-ga-e8f0a79ad845"
                 target="_blank"
               >
-                [ Journey To GA ]
+                [Journey To GA]
               </a>
             </h3>
             <p>My Journey From Digital Marketing To Software Engineering...</p>
@@ -37,7 +38,7 @@ class Blog extends Component {
                 href="https://medium.com/@coopertuch/my-first-web-application-eeaef8edf248"
                 target="_blank"
               >
-                [ My First Web Application ]
+                [My First Web Application]
               </a>
             </h3>
             <p>
@@ -54,7 +55,7 @@ class Blog extends Component {
                 href="https://medium.com/@coopertuch/journey-to-ga-e8f0a79ad845"
                 target="_blank"
               >
-                [ Journey Through GA ]
+                [Journey Through GA]
               </a>
             </h3>
             <p>

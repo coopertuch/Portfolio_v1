@@ -4,8 +4,8 @@ h3 {
 }
 
 p {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .project {
@@ -22,8 +22,6 @@ p {
 .url {
   text-decoration: none;
   color: black;
-  margin-left: 10px;
-  margin-right: 10px;
   font-size: 20px;
   font-weight: bold;
 }

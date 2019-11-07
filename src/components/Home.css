@@ -17,18 +17,23 @@ h2 {
   justify-content: center;
   border: 2px solid black;
   align-items: center;
-  height: 50px;
 }
 
 .url {
   text-decoration: none;
   color: black;
-  margin-left: 10px;
-  margin-right: 10px;
   font-size: 22px;
   font-weight: bold;
 }
 
 .url:hover {
   color: green;
+}
+
+.intro {
+  font-size: 24px;
+}
+
+.body {
+  text-align: left;
 }

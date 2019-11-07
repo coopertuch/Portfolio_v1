@@ -1,0 +1,28 @@
+h3 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.blog {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid black;
+  align-items: center;
+}
+
+.url {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.url:hover {
+  color: green;
+}

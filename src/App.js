@@ -9,7 +9,7 @@ import Music from "./components/Music";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <header className="header">
           <nav>
             <Link className="link" to="/home">

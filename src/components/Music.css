@@ -1,0 +1,12 @@
+.music {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+iframe {
+  margin: 10px;
+  border: 2px solid black;
+}

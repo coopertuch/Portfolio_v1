@@ -7,7 +7,7 @@ class Blog extends Component {
       <div>
         <h1>Blog</h1>
         <h2>
-          Cooper Tuch //{" "}
+          Read More //{" "}
           <a
             className="url"
             href="https://medium.com/@coopertuch"

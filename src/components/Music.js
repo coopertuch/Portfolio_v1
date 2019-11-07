@@ -7,7 +7,7 @@ class Music extends Component {
       <div>
         <h1>Music</h1>
         <h2>
-          Cooper Tuch //{" "}
+          Now Playing //{" "}
           <a
             className="url"
             href="https://open.spotify.com/user/coopertuch?si=XRC-IJBFTsuNJhz5bH9u0A"

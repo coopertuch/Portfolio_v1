@@ -40,15 +40,16 @@ class Home extends Component {
               Planner, and recent grad from General Assembly's Software
               Engineering Immersive Program. I'm passionate about Code, Music,
               and Design, seeking a full-time position in Software Engineering.
-            </p>
-            <p className="body">
               I encourage you to take a look around - You'll find examples of my
-              projects, blog posts detailing my story and switch to software
-              engineering, and I've included links to some of my favorite
-              playlists.{" "}
-              <span className="hashtag">
-                #SoftwareEngineering #Ex-MediaPlanner
-              </span>
+              projects, blog posts detailing my story, and links to some of my
+              favorite playlists. Please contact me directly on{" "}
+              <a
+                className="linkedin"
+                href="https://www.linkedin.com/in/coopertuch/"
+                target="_blank"
+              >
+                LinkedIn!{" "}
+              </a>
             </p>
           </span>
         </div>

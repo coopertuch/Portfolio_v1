@@ -7,7 +7,7 @@ class Projects extends Component {
       <div>
         <h1>Projects</h1>
         <h2>
-          Cooper Tuch //{" "}
+          Explore Code //{" "}
           <a
             className="url"
             href="https://github.com/coopertuch"

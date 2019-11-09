@@ -11,6 +11,7 @@ class Home extends Component {
             className="url"
             href="https://www.linkedin.com/in/coopertuch/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             LinkedIn
           </a>{" "}
@@ -19,6 +20,7 @@ class Home extends Component {
             className="url"
             href="https://github.com/coopertuch"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>{" "}
@@ -27,6 +29,7 @@ class Home extends Component {
             className="url"
             href="https://medium.com/@coopertuch"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Medium
           </a>
@@ -47,6 +50,7 @@ class Home extends Component {
                 className="linkedin"
                 href="https://www.linkedin.com/in/coopertuch/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 LinkedIn!{" "}
               </a>

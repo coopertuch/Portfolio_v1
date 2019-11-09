@@ -12,6 +12,7 @@ class Blog extends Component {
             className="url"
             href="https://medium.com/@coopertuch"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Medium
           </a>
@@ -23,6 +24,7 @@ class Blog extends Component {
                 className="url"
                 href="https://medium.com/@coopertuch/journey-to-ga-e8f0a79ad845"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 [Journey To GA]
               </a>
@@ -37,6 +39,7 @@ class Blog extends Component {
                 className="url"
                 href="https://medium.com/@coopertuch/my-first-web-application-eeaef8edf248"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 [My First Web Application]
               </a>
@@ -54,6 +57,7 @@ class Blog extends Component {
                 className="url"
                 href="https://medium.com/@coopertuch/journey-to-ga-e8f0a79ad845"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 [Journey Through GA]
               </a>

@@ -12,6 +12,7 @@ class Music extends Component {
             className="url"
             href="https://open.spotify.com/user/coopertuch?si=XRC-IJBFTsuNJhz5bH9u0A"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Spotify
           </a>
@@ -24,6 +25,7 @@ class Music extends Component {
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            title="deephouse"
           ></iframe>
           <iframe
             src="https://open.spotify.com/embed/playlist/2ftE55WGwDbIL1n0XfmFgP"
@@ -32,6 +34,7 @@ class Music extends Component {
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            title="traphouse"
           ></iframe>
           <iframe
             src="https://open.spotify.com/embed/playlist/2M1F6UZNIbS0D3efIFQlVe"
@@ -40,6 +43,7 @@ class Music extends Component {
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            title="trap"
           ></iframe>
           <iframe
             src="https://open.spotify.com/embed/playlist/6DAbFSI4iEcxK1J25tz24J"
@@ -48,6 +52,7 @@ class Music extends Component {
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            title="wavepool"
           ></iframe>{" "}
         </div>
       </div>

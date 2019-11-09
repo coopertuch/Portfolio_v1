@@ -12,6 +12,7 @@ class Projects extends Component {
             className="url"
             href="https://github.com/coopertuch"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
@@ -23,6 +24,7 @@ class Projects extends Component {
                 className="url"
                 href="https://coopertuch.github.io/GA-Project-1/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 [BB'z Questions]{" "}
               </a>
@@ -30,6 +32,7 @@ class Projects extends Component {
                 className="url"
                 href="https://github.com/coopertuch/GA-Project-1"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 [BB'z Questions Repo]
               </a>
@@ -63,6 +66,7 @@ class Projects extends Component {
                 className="url"
                 href="https://coopscheerups.herokuapp.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 [Coop's Cheerups]{" "}
               </a>
@@ -70,6 +74,7 @@ class Projects extends Component {
                 className="url"
                 href="https://github.com/coopertuch/GA-Project-2"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 [Coop's Cheerups Repo]
               </a>

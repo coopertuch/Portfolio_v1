@@ -33,7 +33,7 @@ class App extends Component {
             <Route path="/#/projects" exact component={Projects} />
             <Route path="/#/blog" exact component={Blog} />
             <Route path="/#/music" exact component={Music} />
-            <Route path="/#/*" render={() => <Redirect to="/#/home" />} />
+            <Route path="/*" render={() => <Redirect to="/#/home" />} />
           </Switch>
         </main>
       </div>

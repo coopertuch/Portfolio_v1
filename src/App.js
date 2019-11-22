@@ -12,16 +12,16 @@ class App extends Component {
       <div className="app">
         <header className="header">
           <nav>
-            <Link className="link" to="/#/home">
+            <Link className="link" to="/home">
               <h1 className="link"> Home </h1>
             </Link>
-            <Link className="link" to="/#/projects">
+            <Link className="link" to="/projects">
               <h1 className="link"> Projects </h1>
             </Link>
-            <Link className="link" to="/#/blog">
+            <Link className="link" to="/blog">
               <h1 className="link"> Blog </h1>
             </Link>
-            <Link className="link" to="/#/music">
+            <Link className="link" to="/music">
               <h1 className="link"> Music </h1>
             </Link>
           </nav>
@@ -29,11 +29,11 @@ class App extends Component {
 
         <main>
           <Switch>
-            <Route path="/#/home" component={Home} />
-            <Route path="/#/projects" exact component={Projects} />
-            <Route path="/#/blog" exact component={Blog} />
-            <Route path="/#/music" exact component={Music} />
-            <Route path="/*" render={() => <Redirect to="/#/home" />} />
+            <Route path="/home" component={Home} />
+            <Route path="/projects" exact component={Projects} />
+            <Route path="/blog" exact component={Blog} />
+            <Route path="/music" exact component={Music} />
+            <Route path="/*" render={() => <Redirect to="/home" />} />
           </Switch>
         </main>
       </div>

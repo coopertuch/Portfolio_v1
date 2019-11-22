@@ -24,6 +24,9 @@ class App extends Component {
             <Link className="link" to="/music">
               <h1 className="link"> Music </h1>
             </Link>
+            <Link className="link" to="/*">
+              <h1 className="link"> Home </h1>
+            </Link>
           </nav>
         </header>
 

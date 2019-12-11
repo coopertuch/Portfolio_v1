@@ -28,16 +28,7 @@ class Music extends Component {
             title="deephouse"
           ></iframe>
           <iframe
-            src="https://open.spotify.com/embed/playlist/2ftE55WGwDbIL1n0XfmFgP"
-            width="300"
-            height="380"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-            title="traphouse"
-          ></iframe>
-          <iframe
-            src="https://open.spotify.com/embed/playlist/2M1F6UZNIbS0D3efIFQlVe"
+            src="https://open.spotify.com/embed/playlist/5PpIdFA8GyMC2JAjeVEm7w"
             width="300"
             height="380"
             frameborder="0"

@@ -29,11 +29,11 @@ class App extends Component {
 
         <main>
           <Switch>
-            <Route path="/home" component={Home} />
+            <Route path="/home" exact component={Home} />
             <Route path="/projects" exact component={Projects} />
             <Route path="/blog" exact component={Blog} />
             <Route path="/music" exact component={Music} />
-            <Route path="*" render={() => <Redirect to="/home" />} />
+            <Redirect from="/*" to="/home" />
           </Switch>
         </main>
       </div>

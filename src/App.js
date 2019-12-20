@@ -1,14 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
-import { Route, Link, Switch, Router } from "react-router-dom";
+import { Route, Link, Switch, Redirect } from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Music from "./components/Music";
 
-export default function App() {
-  return (
-    <Router>
+class App extends Component {
+  render() {
+    return (
       <div className="app">
         <header className="header">
           <nav>
@@ -29,21 +29,16 @@ export default function App() {
 
         <main>
           <Switch>
-            <Route path="/Portfolio">
-              <Home />
-            </Route>
-            <Route path="/Projects">
-              <Projects />
-            </Route>
-            <Route path="/Blog">
-              <Blog />
-            </Route>
-            <Route path="/Music">
-              <Music />
-            </Route>
+            <Route path="/Portfolio" exact component={Home} />
+            <Route path="/Projects" exact component={Projects} />
+            <Route path="/Blog" exact component={Blog} />
+            <Route path="/Music" exact component={Music} />
+            <Redirect from="*" to="/Portfolio" />
           </Switch>
         </main>
       </div>
-    </Router>
-  );
+    );
+  }
 }
+
+export default App;

@@ -4,11 +4,19 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import "./index.css";
 import App from "./App";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+import Blog from "./components/Blog";
+import Music from "./components/Music";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <Router>
     <App />
+    <Home />
+    <Projects />
+    <Blog />
+    <Music />
   </Router>,
   document.getElementById("root")
 );

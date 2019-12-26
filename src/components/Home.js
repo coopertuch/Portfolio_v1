@@ -5,7 +5,6 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1>Cooper Tuch</h1>
         <h2>
           <a
             className="url"
@@ -34,7 +33,7 @@ class Home extends Component {
             Medium
           </a>
         </h2>
-        <div className="nav">
+        {/* <div className="nav">
           <span>
             <h3 className="intro">Introduction</h3>
             <p className="body">
@@ -56,7 +55,7 @@ class Home extends Component {
               </a>
             </p>
           </span>
-        </div>
+        </div> */}
       </div>
     );
   }

@@ -6,7 +6,7 @@ class Music extends Component {
     return (
       <div>
         <h1>Music</h1>
-        <h2>
+        {/* <h2>
           Now Playing //{" "}
           <a
             className="url"
@@ -16,7 +16,7 @@ class Music extends Component {
           >
             Spotify
           </a>
-        </h2>
+        </h2> */}
         <div className="music">
           <iframe
             src="https://open.spotify.com/embed/playlist/16IPy7ht6hxoRYslrxtyMl"

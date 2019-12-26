@@ -6,7 +6,7 @@ class Blog extends Component {
     return (
       <div>
         <h1>Blog</h1>
-        <h2>
+        {/* <h2>
           Read More //{" "}
           <a
             className="url"
@@ -16,7 +16,7 @@ class Blog extends Component {
           >
             Medium
           </a>
-        </h2>
+        </h2> */}
         <div className="blog">
           <span>
             <h3>

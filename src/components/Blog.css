@@ -16,11 +16,11 @@ h3 {
 
 .url {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 24px;
   font-weight: bold;
 }
 
 .url:hover {
-  color: green;
+  color: black;
 }

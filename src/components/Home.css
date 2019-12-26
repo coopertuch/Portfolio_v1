@@ -3,11 +3,6 @@ h1 {
   margin-bottom: 5px;
 }
 
-h2 {
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
-
 .nav {
   display: flex;
   margin-left: 5%;
@@ -21,27 +16,31 @@ h2 {
 
 .url {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 22px;
   font-weight: bold;
 }
 
 .url:hover {
-  color: green;
+  color: black;
 }
 
 .linkedin {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 .linkedin:hover {
-  color: green;
+  color: black;
 }
 
 .intro {
   font-size: 24px;
+}
+
+* {
+  text-align: center;
 }
 
 .body {

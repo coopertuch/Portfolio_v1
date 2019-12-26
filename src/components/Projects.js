@@ -6,7 +6,7 @@ class Projects extends Component {
     return (
       <div>
         <h1>Projects</h1>
-        <h2>
+        {/* <h2>
           Explore Code //{" "}
           <a
             className="url"
@@ -16,7 +16,7 @@ class Projects extends Component {
           >
             GitHub
           </a>
-        </h2>
+        </h2> */}
         <div className="project">
           <span>
             <h3>
@@ -40,22 +40,21 @@ class Projects extends Component {
             <p className="body">
               WeWorkout is an open forum for finding workouts, adding your own
               workouts, and a database to track your weights, reps, sets, and
-              progression. On the Home/Workout page, workouts are listed with
-              the user's name and muscle group, followed by form, breathing, and
-              progression tips; users can add workouts from this page using the
-              + sign. Clicking into a workout will then display all lifts
-              associated with that user's muscle group, with the exercise,
-              desired reps, and weight; users can add lifts from this page using
-              the + sign, in addition to being able to edit and delete both the
-              workout and lift info from this page. The Lifts page will display
-              all lifts, where users can click on lifts to view, edit, or
-              delete. To add, edit, or delete workouts and lifts, users must
-              sign up and be logged in; users do not need to be logged in to
-              just view workouts and lifts.{" "}
-              <span className="hashtag">
-                #HTML #CSS #JavaScript #Python #Django #PostgreSQL #Materialize
-                #Heroku
-              </span>
+              progression, built using HTML, CSS, Python, Django, PostgreSQL and
+              Materialize. There is full CRUD functionality for workouts and
+              lifts, with required user authentication. WeWorkout is deployed to
+              Heroku, and is responsive for desktop and mobile. On the
+              Home/Workout page, workouts are listed with the user's name and
+              muscle group, followed by form, breathing, and progression tips;
+              users can add workouts from this page using the + sign. Clicking
+              into a workout will then display all lifts associated with that
+              user's muscle group, with the exercise, desired reps, and weight;
+              users can add lifts from this page using the + sign, in addition
+              to being able to edit and delete both the workout and lift info
+              from this page. The Lifts page will display all lifts, where users
+              can click on lifts to view, edit, or delete. To add, edit, or
+              delete workouts and lifts, users must sign up and be logged in;
+              users do not need to be logged in to just view workouts and lifts.
             </p>
           </span>
         </div>

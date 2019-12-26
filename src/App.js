@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Route, Link, Switch, Redirect } from "react-router-dom";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
-import Blog from "./components/Blog";
-import Music from "./components/Music";
+import { Link } from "react-router-dom";
+// import { Route, Link, Switch, Redirect } from "react-router-dom";
+// import Home from "./components/Home";
+// import Projects from "./components/Projects";
+// import Blog from "./components/Blog";
+// import Music from "./components/Music";
 
 class App extends Component {
   render() {
@@ -13,9 +14,12 @@ class App extends Component {
         <header className="header">
           <nav>
             <Link className="link" to="/Portfolio">
-              <h1 className="link"> Home </h1>
+              <h1 className="link">
+                {" "}
+                Cooper Tuch // Junior Frontend Developer{" "}
+              </h1>
             </Link>
-            <Link className="link" to="/Projects">
+            {/* <Link className="link" to="/Projects">
               <h1 className="link"> Projects </h1>
             </Link>
             <Link className="link" to="/Blog">
@@ -23,11 +27,11 @@ class App extends Component {
             </Link>
             <Link className="link" to="/Music">
               <h1 className="link"> Music </h1>
-            </Link>
+            </Link> */}
           </nav>
         </header>
 
-        <main>
+        {/* <main>
           <Switch>
             <Route path="/Portfolio" exact component={Home} />
             <Route path="/Projects" exact component={Projects} />
@@ -35,7 +39,7 @@ class App extends Component {
             <Route path="/Music" exact component={Music} />
             <Redirect from="*" to="/Portfolio" />
           </Switch>
-        </main>
+        </main> */}
       </div>
     );
   }

@@ -19,13 +19,12 @@ class Music extends Component {
         </h2> */}
         <div className="music">
           <iframe
-            src="https://open.spotify.com/embed/playlist/16IPy7ht6hxoRYslrxtyMl"
+            src="https://open.spotify.com/embed/playlist/2M1F6UZNIbS0D3efIFQlVe"
             width="300"
             height="380"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
-            title="deephouse"
           ></iframe>
           <iframe
             src="https://open.spotify.com/embed/playlist/5PpIdFA8GyMC2JAjeVEm7w"
@@ -34,7 +33,6 @@ class Music extends Component {
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
-            title="trap"
           ></iframe>
           <iframe
             src="https://open.spotify.com/embed/playlist/6DAbFSI4iEcxK1J25tz24J"

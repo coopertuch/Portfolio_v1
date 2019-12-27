@@ -19,7 +19,7 @@ class Blog extends Component {
         </h2> */}
         <div className="blog">
           <span>
-            <h3>
+            <p>
               <a
                 className="url"
                 href="https://medium.com/@coopertuch/journey-to-ga-e8f0a79ad845"
@@ -27,14 +27,15 @@ class Blog extends Component {
                 rel="noopener noreferrer"
               >
                 [Journey To GA]
-              </a>
-            </h3>
-            <p>My Journey From Digital Marketing To Software Engineering...</p>
+              </a>{" "}
+              My Journey from Digital Marketing and Media Planning to Software
+              Engineering With General Assembly.
+            </p>
           </span>
         </div>
         <div className="blog">
           <span>
-            <h3>
+            <p>
               <a
                 className="url"
                 href="https://medium.com/@coopertuch/my-first-web-application-eeaef8edf248"
@@ -42,9 +43,7 @@ class Blog extends Component {
                 rel="noopener noreferrer"
               >
                 [My First Web Application]
-              </a>
-            </h3>
-            <p>
+              </a>{" "}
               Coop's Questions - Good questions just skim the surface. Great
               questions drive meaningful connection.
             </p>
@@ -52,19 +51,18 @@ class Blog extends Component {
         </div>
         <div className="blog">
           <span>
-            <h3>
+            <h3></h3>
+            <p>
               <a
                 className="url"
-                href="https://medium.com/@coopertuch/journey-to-ga-e8f0a79ad845"
+                href="https://medium.com/@coopertuch/journey-through-ga-4953a1bb25d2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 [Journey Through GA]
-              </a>
-            </h3>
-            <p>
-              My Journey From Media Planning To Software Engineering With
-              General Assembly.
+              </a>{" "}
+              My Journey through General Assembly to become a Full Stack Web
+              Developer.
             </p>
           </span>
         </div>

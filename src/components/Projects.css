@@ -19,6 +19,10 @@ p {
   align-items: center;
 }
 
+.last {
+  margin-bottom: 0px;
+}
+
 .url {
   text-decoration: none;
   color: black;

@@ -7,7 +7,6 @@ h3 {
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 20px;
   flex-wrap: wrap;
   justify-content: left;
   /* border: 2px solid black; */

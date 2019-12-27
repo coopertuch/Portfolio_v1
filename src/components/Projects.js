@@ -101,7 +101,7 @@ class Projects extends Component {
         </div>
         <div className="project">
           <span>
-            <p className="body">
+            <p className="body last">
               <a
                 className="url"
                 href="https://coopscheerups.herokuapp.com/"

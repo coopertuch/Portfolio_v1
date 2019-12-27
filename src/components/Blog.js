@@ -6,17 +6,6 @@ class Blog extends Component {
     return (
       <div>
         <h1>Blog</h1>
-        {/* <h2>
-          Read More //{" "}
-          <a
-            className="url"
-            href="https://medium.com/@coopertuch"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Medium
-          </a>
-        </h2> */}
         <div className="blog">
           <span>
             <p>
@@ -51,7 +40,6 @@ class Blog extends Component {
         </div>
         <div className="blog">
           <span>
-            <h3></h3>
             <p>
               <a
                 className="url"

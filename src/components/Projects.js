@@ -44,8 +44,9 @@ class Projects extends Component {
               The Lifts page will display all lifts, where users can click on
               lifts to view, edit, or delete. To add, edit, or delete workouts
               and lifts, users must sign up and be logged in; users do not need
-              to be logged in to just view workouts and lifts. Check out the
-              GitHub repository{" "}
+              to be logged in to just view workouts and lifts. For more
+              information on the project with examples, check out the GitHub
+              repository{" "}
               <a
                 className="repo"
                 href="https://github.com/coopertuch/GA-Project-4"
@@ -86,7 +87,8 @@ class Projects extends Component {
               Sometimes all it takes is one question to start meaningful
               conversations and open the door to connection. A huge thank you to
               the Banana Boyz, or "BB'z" for short, for inspiring this app idea!
-              Check out the GitHub repository{" "}
+              For more information on the project with examples, check out the
+              GitHub repository{" "}
               <a
                 className="repo"
                 href="https://github.com/coopertuch/GA-Project-1"
@@ -124,8 +126,9 @@ class Projects extends Component {
               direct the user to a new page that has pulled the new cheerup and
               allows users to edit the quote, author, and update likes. After
               submitting an edit, they will be redirected back to the home page.
-              The remove button will instantly delete the quote. Check out the
-              GitHub repository{" "}
+              The remove button will instantly delete the quote. For more
+              information on the project with examples, check out the GitHub
+              repository{" "}
               <a
                 className="repo"
                 href="https://github.com/coopertuch/GA-Project-2"

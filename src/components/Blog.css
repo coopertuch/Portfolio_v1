@@ -11,6 +11,7 @@ h3 {
   justify-content: left;
   /* border: 2px solid black; */
   align-items: left;
+  height: 40px;
 }
 
 .url {

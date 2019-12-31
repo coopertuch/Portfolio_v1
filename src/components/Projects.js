@@ -6,17 +6,6 @@ class Projects extends Component {
     return (
       <div>
         <h1>Projects</h1>
-        {/* <h2>
-          Explore Code //{" "}
-          <a
-            className="url"
-            href="https://github.com/coopertuch"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </h2> */}
         <div className="project">
           <span>
             <p className="body">

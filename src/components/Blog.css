@@ -5,15 +5,17 @@ h3 {
 
 .blog {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.blog > div {
+.blog > a {
   width: 300px;
   text-align: center;
+  margin: 0px 10px 15px 10px;
+  border: 2px solid black;
 }
 
 .url {
@@ -22,6 +24,6 @@ h3 {
   font-weight: bold;
 }
 
-.url:hover {
+.blog:hover {
   color: black;
 }

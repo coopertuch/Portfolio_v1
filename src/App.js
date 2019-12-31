@@ -14,7 +14,7 @@ class App extends Component {
         <header className="header">
           <nav>
             <Link className="link" to="/Portfolio">
-              <h1 className="link"> Cooper Tuch // Frontend Developer </h1>
+              <h1> Cooper Tuch // Frontend Developer </h1>
             </Link>
             {/* <Link className="link" to="/Projects">
               <h1 className="link"> Projects </h1>

@@ -14,6 +14,7 @@ class Music extends Component {
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            title="trap"
           ></iframe>
           <iframe
             src="https://open.spotify.com/embed/playlist/5PpIdFA8GyMC2JAjeVEm7w"
@@ -22,6 +23,7 @@ class Music extends Component {
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            title="liquid"
           ></iframe>
           <iframe
             src="https://open.spotify.com/embed/playlist/6DAbFSI4iEcxK1J25tz24J"

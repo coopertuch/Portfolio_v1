@@ -5,12 +5,15 @@ h3 {
 
 .blog {
   display: flex;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   flex-wrap: wrap;
-  justify-content: left;
-  /* border: 2px solid black; */
-  align-items: left;
+  justify-content: space-around;
+}
+
+.blog > div {
+  width: 300px;
+  font-size: 20px;
 }
 
 .url {

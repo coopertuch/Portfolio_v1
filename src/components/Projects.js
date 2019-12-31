@@ -10,12 +10,12 @@ class Projects extends Component {
           <span>
             <p className="body">
               <a
-                className="url"
+                className="url box"
                 href="https://we-work-out.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                [WeWorkout]{" "}
+                WeWorkout{" "}
               </a>
               is an open forum for finding workouts, adding your own workouts,
               and a database to track your weights, reps, sets, and progression,
@@ -52,12 +52,12 @@ class Projects extends Component {
           <span>
             <p className="body">
               <a
-                className="url"
+                className="url box"
                 href="https://coopertuch.github.io/GA-Project-1/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                [BB'z Questions]{" "}
+                BB'z Questions{" "}
               </a>{" "}
               is a collection of questions split into several various
               categories, built using HTML, CSS, and Javascript. This project is
@@ -94,12 +94,12 @@ class Projects extends Component {
           <span>
             <p className="body">
               <a
-                className="url"
+                className="url box"
                 href="https://coopscheerups.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                [Coop's Cheerups]{" "}
+                Coop's Cheerups{" "}
               </a>{" "}
               is a board of positive quotes, built using HTML, CSS, Javascript,
               Express, Handlebars, and Mongoose. Coop's Cheerups is deployed to

@@ -36,3 +36,9 @@ p {
 .hashtag {
   font-weight: bold;
 }
+
+.box {
+  padding: 0px 7px 0px 7px;
+  margin-right: 4px;
+  border: 2px solid black;
+}

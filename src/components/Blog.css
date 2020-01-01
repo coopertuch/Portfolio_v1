@@ -18,12 +18,12 @@ h3 {
   border: 2px solid black;
 }
 
+span > p:hover {
+  color: black;
+}
+
 .url {
   text-decoration: none;
   color: white;
   font-weight: bold;
-}
-
-span:hover {
-  color: black;
 }

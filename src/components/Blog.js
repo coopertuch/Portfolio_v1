@@ -15,7 +15,7 @@ class Blog extends Component {
           >
             <div>
               <span>
-                <p>Journey To GA </p>
+                <p className="hover">Journey To GA </p>
               </span>
             </div>
           </a>
@@ -27,7 +27,7 @@ class Blog extends Component {
           >
             <div>
               <span>
-                <p>My First Web Application </p>
+                <p className="hover">My First Web Application </p>
               </span>
             </div>
           </a>
@@ -39,7 +39,7 @@ class Blog extends Component {
           >
             <div>
               <span>
-                <p>Journey Through GA </p>
+                <p className="hover">Journey Through GA </p>
               </span>
             </div>
           </a>

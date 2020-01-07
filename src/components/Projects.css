@@ -1,12 +1,7 @@
-p {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .project {
   display: flex;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
   flex-wrap: wrap;
   justify-content: center;
   /* border: 2px solid black; */

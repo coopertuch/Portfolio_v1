@@ -13,30 +13,41 @@ class App extends Component {
       <div className="app">
         <header className="header">
           <nav>
-            <Link className="link" to="/Portfolio">
-              <h1 className="title"> Cooper Tuch // Frontend Developer </h1>
-            </Link>
-            {/* <Link className="link" to="/Projects">
-              <h1 className="link"> Projects </h1>
-            </Link>
-            <Link className="link" to="/Blog">
-              <h1 className="link"> Blog </h1>
-            </Link>
-            <Link className="link" to="/Music">
-              <h1 className="link"> Music </h1>
-            </Link> */}
+            <div>
+              <Link className="link" to="/Portfolio">
+                <h1 className="title"> Cooper Tuch // Frontend Developer </h1>
+              </Link>
+            </div>
+            <div className="center">
+              <h2>
+                <a
+                  className="url"
+                  href="https://www.linkedin.com/in/coopertuch/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-linkedin-square"></i>
+                </a>
+                <a
+                  className="url"
+                  href="https://github.com/coopertuch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-github-square"></i>
+                </a>
+                <a
+                  className="url"
+                  href="https://medium.com/@coopertuch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="medium"></span>
+                </a>
+              </h2>
+            </div>
           </nav>
         </header>
-
-        {/* <main>
-          <Switch>
-            <Route path="/Portfolio" exact component={Home} />
-            <Route path="/Projects" exact component={Projects} />
-            <Route path="/Blog" exact component={Blog} />
-            <Route path="/Music" exact component={Music} />
-            <Redirect from="*" to="/Portfolio" />
-          </Switch>
-        </main> */}
       </div>
     );
   }

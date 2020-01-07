@@ -18,33 +18,31 @@ class App extends Component {
                 <h1 className="title"> Cooper Tuch // Frontend Developer </h1>
               </Link>
             </div>
-            <div className="center">
-              <h2>
-                <a
-                  className="url"
-                  href="https://www.linkedin.com/in/coopertuch/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa fa-linkedin-square fa-lg"></i>
-                </a>
-                <a
-                  className="url"
-                  href="https://github.com/coopertuch"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa fa-github-square fa-lg"></i>
-                </a>
-                <a
-                  className="url"
-                  href="https://medium.com/@coopertuch"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fab fa-medium fa-lg"></i>
-                </a>
-              </h2>
+            <div>
+              <a
+                className="url"
+                href="https://www.linkedin.com/in/coopertuch/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-linkedin-square fa-lg"></i>
+              </a>
+              <a
+                className="url"
+                href="https://github.com/coopertuch"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa fa-github-square fa-lg"></i>
+              </a>
+              <a
+                className="url"
+                href="https://medium.com/@coopertuch"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-medium fa-lg"></i>
+              </a>
             </div>
           </nav>
         </header>

@@ -13,8 +13,8 @@ ReactDOM.render(
   <Router>
     <App />
     <Projects />
-    <Blog />
-    <Music />
+    {/* <Blog />
+    <Music /> */}
   </Router>,
   document.getElementById("root")
 );

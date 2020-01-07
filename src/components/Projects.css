@@ -60,3 +60,9 @@ h3 {
 .top {
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 713px) {
+  .website {
+    height: 590px;
+  }
+}

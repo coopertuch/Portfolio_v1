@@ -6,7 +6,6 @@
 }
 
 nav {
-  display: inline-flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -42,10 +41,6 @@ h1 {
 
 .link:hover {
   color: black;
-}
-
-.links {
-  text-align: center;
 }
 
 .app {

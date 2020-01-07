@@ -26,7 +26,7 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa fa-linkedin-square"></i>
+                  <i class="fa fa-linkedin-square fa-lg"></i>
                 </a>
                 <a
                   className="url"
@@ -34,7 +34,7 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa fa-github-square"></i>
+                  <i class="fa fa-github-square fa-lg"></i>
                 </a>
                 <a
                   className="url"
@@ -42,7 +42,7 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="medium"></span>
+                  <i class="fab fa-medium fa-lg"></i>
                 </a>
               </h2>
             </div>

@@ -15,7 +15,7 @@ class App extends Component {
           <nav>
             <div>
               <Link className="link" to="/Portfolio">
-                <h1 className="title"> Cooper Tuch // Frontend Developer </h1>
+                <h1 className="title"> Cooper Tuch // Full Stack Developer </h1>
               </Link>
             </div>
             <div className="links">

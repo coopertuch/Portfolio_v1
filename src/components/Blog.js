@@ -6,7 +6,7 @@ class Blog extends Component {
     return (
       <div>
         <h1>Blog</h1>
-        <div className="blog">
+        <div className="blog-container">
           <a
             className="url"
             href="https://medium.com/@coopertuch/journey-to-ga-e8f0a79ad845"
@@ -15,7 +15,7 @@ class Blog extends Component {
           >
             <div>
               <span>
-                <p className="hover">Journey To GA </p>
+                <p className="url">Journey To GA </p>
               </span>
             </div>
           </a>
@@ -27,7 +27,7 @@ class Blog extends Component {
           >
             <div>
               <span>
-                <p className="hover">My First Web Application </p>
+                <p className="url">My First Web Application </p>
               </span>
             </div>
           </a>
@@ -39,7 +39,7 @@ class Blog extends Component {
           >
             <div>
               <span>
-                <p className="hover">Journey Through GA </p>
+                <p className="url">Journey Through GA </p>
               </span>
             </div>
           </a>

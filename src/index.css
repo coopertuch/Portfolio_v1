@@ -22,3 +22,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+* {
+  text-align: center;
+  color: white;
+  font-family: "Khula", sans-serif;
+}

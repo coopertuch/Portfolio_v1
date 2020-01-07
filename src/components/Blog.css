@@ -1,9 +1,4 @@
-h3 {
-  margin-top: 12px;
-  margin-bottom: 0px;
-}
-
-.blog {
+.blog-container {
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
@@ -11,19 +6,9 @@ h3 {
   justify-content: center;
 }
 
-.blog > a {
+.blog-container > a {
   width: 300px;
   text-align: center;
   margin: 0px 10px 15px 10px;
   border: 2px solid black;
-}
-
-.hover:hover {
-  color: black;
-}
-
-.url {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
 }

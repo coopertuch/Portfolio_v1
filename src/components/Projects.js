@@ -9,7 +9,51 @@ class Projects extends Component {
           <span>
             <p className="body">
               <a
-                className="url box"
+                className="url"
+                href="https://coopertuch.github.io/GA-Project-1/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                BB'z Questions{" "}
+              </a>{" "}
+              is a collection of questions split into several various
+              categories. This project is intended for use by new friends, old
+              friends, family, anyone you hope to get closer to or have some fun
+              with. So often we are paralyzed by social interactions and
+              overthinking that we don't even begin to converse with each other,
+              always resorting to small talk; I've been doing well, the weather
+              is good, so was my weekend. While you may not want to get into
+              personal details with co-workers, this project offers a variety of
+              (growing) categories and questions to spark up conversations with
+              each other; spend some time debating whether savory or sweet is
+              better, or maybe come to the realization that you both love the
+              same movies. For those who seek to enrich or rebuild existing
+              relationships with friends or family, there are even more
+              questions for you. Sometimes all it takes is one question to start
+              meaningful conversations and open the door to connection. A huge
+              thank you to the Banana Boyz, or "BB'z" for short, for inspiring
+              this app idea! Check out the GitHub repository{" "}
+              <a
+                className="repo"
+                href="https://github.com/coopertuch/GA-Project-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              , or PLAY below!
+            </p>
+          </span>
+          <embed
+            className="website"
+            src="https://coopertuch.github.io/GA-Project-1/"
+          ></embed>
+        </div>
+        <div className="project">
+          <span>
+            <p className="body">
+              <a
+                className="url"
                 href="https://we-work-out.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -51,7 +95,7 @@ class Projects extends Component {
           <span>
             <p className="body">
               <a
-                className="url box"
+                className="url"
                 href="https://coopscheerups.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -86,51 +130,6 @@ class Projects extends Component {
               .
             </p>
           </span>
-        </div>
-        <div className="project">
-          <span>
-            <p className="body">
-              <a
-                className="url box"
-                href="https://coopertuch.github.io/GA-Project-1/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                BB'z Questions{" "}
-              </a>{" "}
-              is a collection of questions split into several various
-              categories, built using HTML, CSS, and Javascript. This project is
-              intended for use by new friends, old friends, family, anyone you
-              hope to get closer to or have some fun with. So often we are
-              paralyzed by social interactions and overthinking that we don't
-              even begin to converse with each other, always resorting to small
-              talk; I've been doing well, the weather is good, so was my
-              weekend. While you may not want to get into personal details with
-              co-workers, this project offers a variety of (growing) categories
-              and questions to spark up conversations with each other; spend
-              some time debating whether savory or sweet is better, or maybe
-              come to the realization that you both love the same movies. For
-              those who seek to enrich or rebuild existing relationships with
-              friends or family, there are even more questions for you.
-              Sometimes all it takes is one question to start meaningful
-              conversations and open the door to connection. A huge thank you to
-              the Banana Boyz, or "BB'z" for short, for inspiring this app idea!
-              Check out the GitHub repository{" "}
-              <a
-                className="repo"
-                href="https://github.com/coopertuch/GA-Project-1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>
-              , or play below!
-            </p>
-          </span>
-          <embed
-            className="website"
-            src="https://coopertuch.github.io/GA-Project-1/"
-          ></embed>
         </div>
       </div>
     );

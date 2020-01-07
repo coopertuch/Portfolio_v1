@@ -115,8 +115,7 @@ class Projects extends Component {
               Sometimes all it takes is one question to start meaningful
               conversations and open the door to connection. A huge thank you to
               the Banana Boyz, or "BB'z" for short, for inspiring this app idea!
-              For more information on the project with examples, check out the
-              GitHub repository{" "}
+              Check out the GitHub repository{" "}
               <a
                 className="repo"
                 href="https://github.com/coopertuch/GA-Project-1"
@@ -125,7 +124,7 @@ class Projects extends Component {
               >
                 here
               </a>
-              .
+              , or play below!
             </p>
           </span>
           <embed

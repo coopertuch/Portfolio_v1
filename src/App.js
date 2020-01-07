@@ -18,7 +18,7 @@ class App extends Component {
                 <h1 className="title"> Cooper Tuch // Frontend Developer </h1>
               </Link>
             </div>
-            <div>
+            <div className="links">
               <a
                 className="url"
                 href="https://www.linkedin.com/in/coopertuch/"

@@ -96,32 +96,35 @@ class Projects extends Component {
             <p className="body">
               <a
                 className="url"
-                href="https://coopscheerups.herokuapp.com/"
+                href="https://wtsia.github.io/DevQ/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Coop's Cheerups{" "}
+                DevQ{" "}
               </a>{" "}
-              is a board of positive quotes, built using HTML, CSS, Javascript,
-              Express, Handlebars, and Mongoose. Coop's Cheerups is deployed to
-              Heroku, and is responsive for desktop and mobile. On load, all
-              Cheerups will be displayed in single rows, or rows of one to
-              three, responsive to your browser. Underneath the logo, there is a
-              "New Cheerup" button which directs users to a new page where they
-              can create their own cheerup; on this page, they will be required
-              to enter the quote and author, with a maximum of 100 and 20
-              characters for the quote and author, respectively. After
-              submitting a new cheerup, they will be redirected back to the home
-              page. Each cheerup has the option to edit or remove; the edit will
-              direct the user to a new page that has pulled the new cheerup and
-              allows users to edit the quote, author, and update likes. After
-              submitting an edit, they will be redirected back to the home page.
-              The remove button will instantly delete the quote. For more
-              information on the project with examples, check out the GitHub
-              repository{" "}
+              is a study platform for Software Engineers, built as a team
+              project at General Assembly using HTML, CSS, JavaScript, React,
+              Express, Node, Mongoose, GitHub, Heroku. Users can route to the
+              home page clicking on "DevQ", to the add new question page with
+              "Q+", and the about page with "About". The body consists of links
+              to various categories of questions, which will then take users to
+              the question page; the question page will dynamically fill with
+              questions matching that type, with an input to note their answer,
+              a hint, an answer, and a link to an addtional resource for
+              continued reading. On this page, users can choose to edit the
+              question, which will direct them to the edit page; on the edit
+              page, users will then re-enter the information for the question
+              with any edits they wish to make, with the option to delete the
+              question altogether. To create new questions, users can click on
+              the "Q+", which will direct them to the new question page. On this
+              page, users will enter the question, hint, answer, a link to
+              additional resources, and question type, with all inputs being
+              required. Submitting the question will push them to the database,
+              where they will then be requested and displayed in their
+              respective category types when the user goes back to questions.{" "}
               <a
                 className="repo"
-                href="https://github.com/coopertuch/GA-Project-2"
+                href="https://github.com/wtsia/DevQ/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
